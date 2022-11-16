@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1668582454794
+Build-Jdk: 18.0.1.1
+Built-By: user
+Bundle-Description: tet web bundle
+Bundle-ManifestVersion: 2
+Bundle-Name: tet
+Bundle-SymbolicName: tet
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: my;uses:="javax.servlet,javax.servlet.http";version="1.0
+ .0.SNAPSHOT"
+Import-Package: javax.servlet,javax.servlet.http
+Tool: Bnd-1.50.0
+Web-ContextPath: ink
